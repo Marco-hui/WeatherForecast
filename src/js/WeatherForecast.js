@@ -22,11 +22,10 @@ document.addEventListener('DOMContentLoaded',function(){
                 resolve(ip);
             }
         }
-        ip_xhr.open('get','https://marco-hui.github.io/WeatherForecast/src/api/getIp.php',true);
+        ip_xhr.open('get','../api/getIp.php',true);
         ip_xhr.send();
         return pro_ip;
     }).then(ip=>{
-        console.log(ip);
         var pro_city=new Promise((resolve,reject)=>{
             // 获取city（接口）: "../api/getCity.php"
             var city_xhr=new XMLHttpRequest();
@@ -38,12 +37,11 @@ document.addEventListener('DOMContentLoaded',function(){
                     resolve(city);
                 }
             }
-            city_xhr.open('get','https://marco-hui.github.io/WeatherForecast/src/api/getCity.php',true);
+            city_xhr.open('get','../api/getCity.php',true);
             city_xhr.send();
         })
         return pro_city;
     }).then(city=>{
-        console.log(city);
         // 获取weather（接口）: "http://wthrcdn.etouch.cn/weather_mini?city="
         weather_xhr=new XMLHttpRequest();
         weather_xhr.onload=function(){
