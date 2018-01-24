@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded',function(){
                 resolve(ip);
             }
         }
-        ip_xhr.open('get','../api/getIp.php',true);
+        ip_xhr.open('get','https://marco-hui.github.io/WeatherForecast/src/api/getIp.php',true);
         ip_xhr.send();
         return pro_ip;
     }).then(ip=>{
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     resolve(city);
                 }
             }
-            city_xhr.open('get','../src/api/getCity.php',true);
+            city_xhr.open('get','https://marco-hui.github.io/WeatherForecast/src/api/getCity.php',true);
             city_xhr.send();
         })
         return pro_city;
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded',function(){
                 }
             }
         }
-        cityList_xhr.open('get','../src/api/data/region.json',true);
+        cityList_xhr.open('get','https://marco-hui.github.io/WeatherForecast/src/api/data/region.json',true);
         cityList_xhr.send();
     }
     showCityList();
