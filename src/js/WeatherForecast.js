@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     resolve(city);
                 }
             }
-            city_xhr.open('get','https://marco-hui.github.io/WeatherForecast/src/api/getCity.php',true);
+            city_xhr.open('get','../api/getCity.php',true);
             city_xhr.send();
         })
         return pro_city;
