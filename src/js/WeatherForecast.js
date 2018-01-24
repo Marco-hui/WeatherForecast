@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     resolve(city);
                 }
             }
-            city_xhr.open('get','../api/getCity.php',true);
+            city_xhr.open('get','../src/api/getCity.php',true);
             city_xhr.send();
         })
         return pro_city;
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded',function(){
                 }
             }
         }
-        cityList_xhr.open('get','../api/data/region.json',true);
+        cityList_xhr.open('get','../src/api/data/region.json',true);
         cityList_xhr.send();
     }
     showCityList();
