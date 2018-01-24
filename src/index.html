@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>天气预报</title>
+    <link rel="stylesheet" type="text/css" href="css/WeatherForecast.css" />
+    <script type="text/javascript" src="js/dateFormat.js"></script>
+    <script type="text/javascript" src="js/WeatherForecast.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="weather">
+            <h2> <span class="local"></span> 未来五天天气预报</h2>
+            <div>
+                <b>温度：</b><span class="wd"></span> ℃
+                <p class="time"></p>
+            </div>
+            <div id="data_weather"></div>
+            <div><b>感冒机率：</b><span class="gm"></span></div>
+        </div>
+        <div class="search">
+            <label for="sCity">城市：</label><input type="text" id="sCity"/><button id="btn">查询天气</button>
+        </div>
+        <div id="hot">
+            <h3>热门城市</h3>
+            <div id="data_hotCity"></div>
+        </div>
+        <div id="index">
+            <h3>按拼音字母查询</h3>
+            <div id="data_firstLetter"></div>
+            <div id="data_allCity"></div>
+        </div>
+        <span id="toTop">返回顶部</span>
+    </div>
+</body>
+</html>

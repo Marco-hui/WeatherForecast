@@ -1,0 +1,77 @@
+/* 
+* @Author: Marte
+* @Date:   2018-01-24 16:33:14
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-01-24 22:41:23
+*/
+
+/*天气图标*/
+.baoxue{background:url(../img/baoxue.png) no-repeat center;}
+.baoyu{background: url(../img/baoyu.png) no-repeat center;}
+.dabaoyu{background:url(../img/dabaoyu.png) no-repeat center;}
+.daxue{background:url(../img/daxue.png) no-repeat center;}
+.dayu{background:url(../img/dayu.png) no-repeat center;}
+.duoyun{background:url(../img/duoyun.png) no-repeat center;}
+.leizhenyu{background:url(../img/leizhenyu.png) no-repeat center;}
+.qing{background: url(../img/qing.png) no-repeat center;}
+.shachenbao{background: url(../img/shachenbao.png) no-repeat center;}
+.wu{background: url(../img/wu.png) no-repeat center;}
+.xiaoxue{background: url(../img/xiaoxue.png) no-repeat center;}
+.xiaoyu{background: url(../img/xiaoyu.png) no-repeat center;}
+.yin{background: url(../img/yin.png) no-repeat center;}
+.yujiaxue{background: url(../img/yujiaxue.png) no-repeat center;}
+.zhenxue{background: url(../img/zhenxue.png) no-repeat center;}
+.zhenyu{background: url(../img/zhenyu.png) no-repeat center;}
+.zhongxue{background: url(../img/zhongxue.png) no-repeat center;}
+.zhongyu{background: url(../img/zhongyu.png) no-repeat center;}
+.dongyu{background: url(../img/dongyu.png) no-repeat center;}
+.fuchen{background: url(../img/fuchen.png) no-repeat center;}
+.leizhenyubanbingbao{background: url(../img/leizhenyubanbingbao.png) no-repeat center;}
+.qiangshachenbao{background: url(../img/qiangshachenbao.png) no-repeat center;}
+.tedabaoyu{background: url(../img/tedabaoyu.png) no-repeat center;}
+.yangsha{background: url(../img/yangsha.png) no-repeat center;}
+
+/*公共样式*/
+*{margin: 0;padding: 0;box-sizing:border-box;}
+ul,li{list-style:none;overflow: hidden;}
+li{float: left;}
+a{text-decoration: none;color:#000;}
+.container{margin:5px auto;width: 790px;}
+
+/*******weather*******/
+#weather{border:2px solid #ccc;width: 790px;padding:10px;}
+#weather h2{text-align: center;margin-bottom:10px;}
+#weather .local{color:#f60;}
+#weather .wd{color:#58bc58;}
+#weather .time{width: 230px;float: right;margin-right: 50px;}
+#weather span{color:#4c6;}
+#data_weather ul{overflow: hidden;}
+#data_weather ul li{padding:15px 30px;border:1px dashed #ccc;border-left:0 none;}
+#data_weather ul li:last-child{border-right:0 none;}
+#data_weather ul li h4{height: 30px;line-height: 30px;text-align: center;}
+#data_weather ul li p{font-size:14px;height: 25px;line-height: 25px;}
+#data_weather ul li i{display: block;width: 48px;height: 34px;margin: 5px auto;}
+
+/*******search*******/
+.search{padding:10px 0;}
+.search #sCity{width: 150px;padding-left:5px;}
+.search #btn{margin-left:5px;}
+
+/*******hot*******/
+h3{height: 40px;line-height: 40px;background: #bbb;color:#fff;padding-left:15px;}
+#hot ul{padding-left:10px;background: #eee;}
+#hot ul li{width: 65px;height: 30px;line-height: 30px;cursor:pointer;color:#f40;}
+#hot ul li:hover{text-decoration: underline;color:#00c;}
+
+/*******index*******/
+#data_firstLetter{background: #ddd;}
+#data_firstLetter ul{padding:5px 10px;}
+#data_firstLetter ul li{width: 50px;height: 30px;line-height: 30px;}
+#data_firstLetter ul li a:hover {color: #0dc;}
+#data_allCity ul{border-bottom:1px dashed #ccc;}
+#data_allCity ul li{padding:0 10px;height: 40px;line-height: 40px;cursor:pointer;}
+#data_allCity ul li:hover{color:#e87;}
+#data_allCity ul li b{color:#0dc;}
+
+/************返回顶部************/
+#toTop{display: block;width: 50px;height: 50px;background: rgba(255,255,0,.6);font-size:18px;text-align: center;position: fixed;bottom: 0px;right: 188px;color:#f0f;cursor:pointer;display: none;}
