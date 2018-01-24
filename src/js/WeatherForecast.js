@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded',function(){
         })
         return pro_city;
     }).then(city=>{
+        console.log(city);
         // 获取weather（接口）: "http://wthrcdn.etouch.cn/weather_mini?city="
         weather_xhr=new XMLHttpRequest();
         weather_xhr.onload=function(){
