@@ -27,4 +27,13 @@
 > **Animate.css：**[https://daneden.github.io/animate.css/](https://daneden.github.io/animate.css/)
 > 
 > **阿里云：**[https://www.aliyun.com/](https://www.aliyun.com/)
+> 
+> **CSDN：**[https://www.csdn.net/](https://www.csdn.net/)
+> 
+> **U钙网（LOGO制作）：**[http://www.uugai.com/](http://www.uugai.com/)
+> 
+> **包图网：**[http://ibaotu.com](http://ibaotu.com)
+> 
+> **Bootstrap：**[https://getbootstrap.com](https://getbootstrap.com)
+> 
 
