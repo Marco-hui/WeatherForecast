@@ -36,4 +36,7 @@
 > 
 > **Bootstrap：**[https://getbootstrap.com](https://getbootstrap.com)
 > 
+> **Node.js安装及环境配置：**[https://www.cnblogs.com/liuqiyun/p/8133904.html](https://www.cnblogs.com/liuqiyun/p/8133904.html)
+> 
+> **Swiper：**[http://www.swiper.com.cn/](http://www.swiper.com.cn/)
 
